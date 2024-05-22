@@ -19,5 +19,8 @@ jobs:
       - name: Finish building
         run: echo "Build completed successfully"
 
+  deploy:
+    strategy:
+
   # Chain the next job to the previous one and make it deploy
   # to different environments with manual approvals
